@@ -1,10 +1,12 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <windows.h>
+
 using namespace std;
 
 
-void write() {
+void write(string valor) {
     // Variable para el nombre del archivo
     string nombreFile = "prueba.txt";
     
@@ -20,10 +22,10 @@ void write() {
         }
     }
     
-    archivo << "Hola mundo, como te llamas" << std::endl;
+    archivo << valor;
     archivo.close();
     
-	cout << "" << std::endl;    
+//	cout << "" << std::endl;    
 }
 
 
@@ -51,9 +53,15 @@ void read() {
 
 
 int main() {
+	string valor;
 	
-	cout << "Vamos a escribir el archivo";
-//	    write();
+//	cout << "Digita el valor que necesites escribir" << endl;
+//	cin >> valor;
+//	cout << "Cargando..." << endl;
+//	Sleep(1000);
+//	write(valor);
+//	cout << "Se escribio satisfactoriamente";
+	    
     read();
     return 0;
 }
