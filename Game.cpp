@@ -5,7 +5,6 @@
 
 using namespace std;
 
-
 void write(string valor) {
     // Variable para el nombre del archivo
     string nombreFile = "prueba.txt";
@@ -27,7 +26,6 @@ void write(string valor) {
     
 //	cout << "" << std::endl;    
 }
-
 
 
 void read() {
