@@ -53,8 +53,8 @@ void read() {
 
 
 int main() {
-	string valor;
-	
+//	string valor;
+//	
 //	cout << "Digita el valor que necesites escribir" << endl;
 //	cin >> valor;
 //	cout << "Cargando..." << endl;
